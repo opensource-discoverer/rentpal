@@ -14,7 +14,7 @@ import getCurrentUser from './actions/getCurrentUser';
 import Footer from '@/app/components/footer/footer';
 
 export const metadata = {
-  title: 'Rentpal',
+  title: process.env.APP_NAME,
   description: 'Rent your stuff',
 }
 
