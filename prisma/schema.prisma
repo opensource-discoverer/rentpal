@@ -8,8 +8,7 @@ generator client {
 }
 
 datasource db {
-  //provider = "mongodb"
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
 }
 
