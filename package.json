@@ -49,6 +49,9 @@
     "tailwindcss": "^3.4.19"
   },
   "overrides": {
-    "glob": "^10.4.5"
+    "glob": "^10.4.5",
+    "@babel/runtime":"7.28.4",
+    "semver": "6.3.1",
+    "brace-expansion": "1.1.11"
   }
 }
