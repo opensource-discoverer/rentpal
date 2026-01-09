@@ -1,3 +1,5 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import { Nunito } from 'next/font/google'
 
 import Navbar from '@/app/components/navbar/Navbar';
@@ -46,6 +48,7 @@ export default async function RootLayout({
           {children}
         </div>
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   )
